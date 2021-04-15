@@ -3,3 +3,13 @@ node_js:
 - "12"
 install:
 - 'npm install'
+jdk:
+- oraclejdk8
+addons:
+  sonarcloud: true
+script:
+- sonar-scanner 
+  -Dsonar.login=$SONAR_TOKEN 
+  -Dsonar.oganization=mateoalvmad-github 
+  -Dsonar.projectKey=Lab2Arch 
+  -Dsonar.sources='./app' -X
