@@ -4,7 +4,7 @@ Implementation of a Simple Calculator with the next operations:
 * Minus
 * Multiply
 * Divide
-Including integration with Travkjasdhkfhoñihadsñhfhsdlñhflis CI, Sonarqube (SonarCloud), Coveralls and Snyk
+Including integration with Travis CI, Sonarqube (SonarCloud), Coveralls and Snyk
 ### Folders Structure
 In the folder `app` is located the main code of the app
 In the folder `test` is located the unit tests
