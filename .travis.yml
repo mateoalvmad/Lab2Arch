@@ -10,6 +10,6 @@ addons:
 script:
 - sonar-scanner 
   -Dsonar.login=$SONAR_TOKEN 
-  -Dsonar.oganization=mateoalvmad-github 
+  -Dsonar.organization=mateoalvmad-github 
   -Dsonar.projectKey=Lab2Arch 
   -Dsonar.sources='./app' -X
