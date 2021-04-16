@@ -8,6 +8,7 @@ Travis-CI: [![Build Status](https://travis-ci.org/mateoalvmad/Lab2Arch.svg?branc
 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Lab2Arch&metric=code_smells)](https://sonarcloud.io/dashboard?id=Lab2Arch)
 
+[![Coverage Status](https://coveralls.io/repos/github/mateoalvmad/Lab2Arch/badge.svg?branch=main)](https://coveralls.io/github/mateoalvmad/Lab2Arch?branch=main)
 
 Implementation of a Simple Calculator with the next operations:
 * Add
