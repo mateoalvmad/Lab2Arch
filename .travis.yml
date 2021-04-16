@@ -14,5 +14,6 @@ script:
   -Dsonar.organization=mateoalvmad
   -Dsonar.projectKey=Lab2Arch 
   -Dsonar.sources='./app' -X
-after-success:
+
+  after-success:
   -npm run coveralls
