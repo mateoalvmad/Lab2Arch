@@ -15,5 +15,5 @@ script:
   -Dsonar.projectKey=Lab2Arch 
   -Dsonar.sources='./app' -X
 
-  after-success:
-  -npm run coveralls
+after-success:
+- npm run coveralls
